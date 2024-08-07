@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .header {
+            text-align: center;
+        }
+        .header img {
+            max-width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+        }
+        .details {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="URL_DEL_LOGO" alt="Logo de la Empresa">
+        <h1>Nombre de la Empresa</h1>
+        <p>NIT: 123456789</p>
+        <p>Teléfono: 123-456-7890</p>
+    </div>
+    <h1>Task for crear PDF 2</h1>
+    <h2>PagosMensualidad</h2>
+    <p>id_Pago: &lt;&lt;[id_Pago]&gt;&gt;</p>
+    <p>MarcaTiempo: &lt;&lt;[MarcaTiempo]&gt;&gt;</p>
+    <p>Fecha: &lt;&lt;[Fecha]&gt;&gt;</p>
+    <p>Dia: &lt;&lt;[Dia]&gt;&gt;</p>
+    <p>MesNpago: &lt;&lt;[MesNpago]&gt;&gt;</p>
+    <p>Mes: &lt;&lt;[Mes]&gt;&gt;</p>
+    <p>MesNumero: &lt;&lt;[MesNumero]&gt;&gt;</p>
+    <p>Año: &lt;&lt;[Año]&gt;&gt;</p>
+    <p>id_Alumno: &lt;&lt;[id_Alumno]&gt;&gt;</p>
+    <p>Alumno: &lt;&lt;[Alumno]&gt;&gt;</p>
+    <p>Desde: &lt;&lt;[Desde]&gt;&gt;</p>
+    <p>Hasta: &lt;&lt;[Hasta]&gt;&gt;</p>
+    <p>Meses a pagar: &lt;&lt;[Meses a pagar]&gt;&gt;</p>
+    <p>Meses: &lt;&lt;[Meses]&gt;&gt;</p>
+    <p>Mensualidad: &lt;&lt;[Mensualidad]&gt;&gt;</p>
+    <p>Descuento: &lt;&lt;[Descuento]&gt;&gt;</p>
+    <p>ValorDescuento: &lt;&lt;[ValorDescuento]&gt;&gt;</p>
+    <p>Valor Pago: &lt;&lt;[Valor Pago]&gt;&gt;</p>
+    <p>Método Pago: &lt;&lt;[Metodo Pago]&gt;&gt;</p>
+    <p>Comprobante: &lt;&lt;[Comprobante]&gt;&gt;</p>
+    <p>Registrado por: &lt;&lt;[Registrado por]&gt;&gt;</p>
+    <p>Contador: &lt;&lt;[Contador]&gt;&gt;</p>
+    <p>Nombre Recibo: &lt;&lt;[Nombre Recibo]&gt;&gt;</p>
+    <p>PDF: &lt;&lt;[PDF]&gt;&gt;</p>
+    
+    <!-- Datos de la tabla Alumnos -->
+    <h2>Datos del Alumno</h2>
+    <p>Nombre: &lt;&lt;LOOKUP([id_Alumno], "Alumnos", "id", "Nombre")&gt;&gt;</p>
+    <p>Teléfono: &lt;&lt;LOOKUP([id_Alumno], "Alumnos", "id", "Telefono")&gt;&gt;</p>
+    <p>Nivel: &lt;&lt;LOOKUP([id_Alumno], "Alumnos", "id", "Nivel")&gt;&gt;</p>
+    <p>Años: &lt;&lt;LOOKUP([id_Alumno], "Alumnos", "id", "Años")&gt;&gt;</p>
+</body>
+</html>
